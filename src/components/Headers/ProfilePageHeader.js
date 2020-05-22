@@ -1,9 +1,4 @@
 import React from "react";
-
-// reactstrap components
-
-// core components
-
 function ProfilePageHeader() {
   let pageHeader = React.createRef();
 

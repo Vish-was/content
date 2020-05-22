@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // react plugin used to create switch buttons
 import Switch from "react-bootstrap-switch";
@@ -35,6 +17,10 @@ import {
   Row,
   Col
 } from "reactstrap";
+
+function callapi(){
+  console.log('test')
+}
 
 function SectionButtons() {
   React.useEffect(() => {
@@ -61,6 +47,7 @@ function SectionButtons() {
       });
     }
   });
+
   return (
     <>
       <div className="section section-buttons">
@@ -77,7 +64,7 @@ function SectionButtons() {
             </div>
             <Row>
               <Col md="8">
-                <Button color="info" type="button">
+                <Button color="info" type="button" onClick={callapi()}>
                   Default
                 </Button>
                 <Button className="btn-round ml-1" color="info" type="button">

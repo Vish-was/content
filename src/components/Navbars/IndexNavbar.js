@@ -1,7 +1,5 @@
 import React from "react";
-// nodejs library that concatenates strings
 import classnames from "classnames";
-// reactstrap components
 import {
   Button,
   Collapse,
@@ -10,7 +8,7 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Container
+  Container,
 } from "reactstrap";
 
 function IndexNavbar() {
@@ -58,7 +56,7 @@ function IndexNavbar() {
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
-              toggled: navbarCollapse
+              toggled: navbarCollapse,
             })}
             onClick={toggleNavbarCollapse}
           >
@@ -76,7 +74,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
+                href="https://twitter.com/vishwas2014"
                 target="_blank"
                 title="Follow us on Twitter"
               >
@@ -87,7 +85,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/vishwasnahar786"
                 target="_blank"
                 title="Like us on Facebook"
               >
@@ -98,7 +96,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.instagram.com/imjustbigdreamer/"
                 target="_blank"
                 title="Follow us on Instagram"
               >
@@ -109,7 +107,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial/paper-kit-react?ref=creativetim"
+                href="https://github.com/Vish-was"
                 target="_blank"
                 title="Star on GitHub"
               >
